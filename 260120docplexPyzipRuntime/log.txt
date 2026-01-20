@@ -1,0 +1,20 @@
+[2026-01-20T08:53:18.112Z, WARNING] DO Runtime 24.1 on Python 3.11 is used as default with pandas 2.1.1 libraries.
+[2026-01-20T08:53:18.810Z, INFO] Loaded dtype schemas: {'diet_food_nutrients.csv': {'Food': 'string', 'カロリー': 'float64', 'カルシウム': 'float64', '鉄分': 'float64', 'ビタミンA': 'float64', '食物繊維': 'float64', '炭水化物': 'float64', 'タンパク質': 'float64'}, 'diet_food.csv': {'name': 'string', 'unit_cost': 'float64', 'qmin': 'float64', 'qmax': 'float64'}, 'diet_nutrients.csv': {'name': 'string', 'qmin': 'float64', 'qmax': 'float64'}}
+[2026-01-20T08:53:18.862Z, INFO] Model: diet
+[2026-01-20T08:53:18.863Z, INFO]  - number of variables: 9
+[2026-01-20T08:53:18.863Z, INFO]    - binary=0, integer=0, continuous=9
+[2026-01-20T08:53:18.864Z, INFO]  - number of constraints: 7
+[2026-01-20T08:53:18.864Z, INFO]    - linear=7
+[2026-01-20T08:53:18.864Z, INFO]  - parameters: defaults
+[2026-01-20T08:53:18.865Z, INFO]  - objective: minimize
+[2026-01-20T08:53:18.865Z, INFO]  - problem type is: LP
+[2026-01-20T08:53:18.866Z, INFO] Warning: Model: "diet" is not a MIP problem, progress listeners are disabled
+[2026-01-20T08:53:18.877Z, INFO] objective: 2.690
+[2026-01-20T08:53:18.877Z, INFO] status: OPTIMAL_SOLUTION(2)
+[2026-01-20T08:53:18.877Z, INFO]   スパゲッティ（ソース付き）=2.155
+[2026-01-20T08:53:18.878Z, INFO]   チョコチップクッキー=10.000
+[2026-01-20T08:53:18.878Z, INFO]   低脂肪牛乳=1.831
+[2026-01-20T08:53:18.879Z, INFO]   ホットドッグ=0.930
+[2026-01-20T08:53:18.879Z, INFO] solution.csv
+[2026-01-20T08:53:18.881Z, INFO] Creating output.zip
+[2026-01-20T08:53:18.882Z, INFO] output.zip created successfully
